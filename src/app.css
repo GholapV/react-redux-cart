@@ -143,23 +143,28 @@ nav {
   color: black;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   .nav-bar {
-    width: 90%;
+    width: 100%;
   }
   .cart-panel {
-    width: 85%;
+    width: 100%;
   }
   .nav-bar {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .cart-status-header h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .cart-status-header p {
     font-size: 0.7rem;
   }
   .item-right {
+    font-size: 0.85rem;
+  }
+  .cart-value {
+    width: 1.3rem;
+    height: 1.3rem;
     font-size: 0.85rem;
   }
 }
